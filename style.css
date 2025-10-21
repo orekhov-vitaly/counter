@@ -1,11 +1,14 @@
 #counter-nikita {
-  background-color: #ffffff;
-  padding: 25px 50px;
-  border-radius: 12px;
+  background: linear-gradient(135deg, #ff6f61, #ffcc70); 
+  padding: 25px 40px;
+  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  margin: 15px auto;  
+  font-family: 'Verdana', sans-serif;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
+
 
 #counter-nikita h2 {
   margin-bottom: 20px;
